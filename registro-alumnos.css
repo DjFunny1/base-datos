@@ -1,0 +1,116 @@
+body {
+    background: linear-gradient(-90deg, rgba(195, 34, 34, 0.4) 0%, rgba(254, 144, 0, 0.4) 84%);
+    font-family: Arial, sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 1rem;
+}
+
+body h1 {
+    text-shadow: 1px 1px white;
+    text-align: center;
+}
+
+.topfieldn {
+    display: inline-table;
+    text-align: center;
+    border-radius: 65px;
+    color: black;
+    background-color: rgba(55, 216, 189, 0.74);
+    width: 7rem;
+    padding: 1px 1rem
+}
+.topfielda {
+    display: inline-table;
+    text-align: center;
+    border-radius: 65px;
+    color: black;
+    background-color: rgba(55, 216, 189, 0.74);
+    width: 7rem;
+    padding: 1px 1rem
+}
+.topfielde {
+    display: inline-table;
+    text-align: center;
+    border-radius: 65px;
+    color: black;
+    background-color: rgba(55, 216, 189, 0.74);
+    width: 3rem;
+    padding: 1px 1rem
+}
+.topfieldm {
+    display: inline-table;
+    text-align: center;
+    border-radius: 65px;
+    color: black;
+    background-color: rgba(55, 216, 189, 0.74);
+    width: 12rem;
+    padding: 1px 1rem
+}
+.topfieldad {
+    display: inline-table;
+    text-align: center;
+    border-radius: 65px;
+    color: black;
+    background-color: rgba(55, 216, 189, 0.74);
+    width: 5rem;
+    padding: 1px 1rem
+}
+
+.bodyfieldn {
+    margin-top: 1rem;
+    display: inline-table;
+    text-align: center;
+    border-radius: 65px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.552);
+    width: 7rem;
+    padding: 1px 1rem
+}
+.bodyfielda {
+    margin-top: 1rem;
+    display: inline-table;
+    text-align: center;
+    border-radius: 65px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.552);
+    width: 7rem;
+    padding: 1px 1rem
+}
+.bodyfielde {
+    margin-top: 1rem;
+    display: inline-table;
+    text-align: center;
+    border-radius: 65px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.552);
+    width: 3rem;
+    padding: 1px 1rem
+}
+.bodyfieldm {
+    margin-top: 1rem;
+    display: inline-table;
+    text-align: center;
+    border-radius: 65px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.552);
+    width: 12em;
+    padding: 1px 1rem
+}
+#yn {
+    margin-top: 1rem;
+    display: inline-table;
+    text-align: center;
+    border-radius: 65px;
+    width: 6rem;
+    height: 3rem;
+    padding: 1px 1rem;
+}
+.yn {
+    margin-top: 1rem;
+    text-align: center;
+    width: 1rem;
+    height: 1rem;
+}

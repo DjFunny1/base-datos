@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    background: rgb(63,65,83);
+    background: linear-gradient(0deg, rgba(168, 177, 255, 0.752) 0%, rgba(2, 11, 183, 0.582) 74%);
+}
+
+.input {
+    border-radius: 50px;
+}
+
+.titulo-base-datos {
+    text-align: center;
+    text-shadow: 1px 1px white;
+}
+
+.registrod {
+    padding-top: 1rem;
+}
+
+.registrosboton {
+    display: inline;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    width: 5rem;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.registrosboton:hover {
+    background-color: rgba(229, 230, 241, 0.655);
+}
+
+.registro_datos {
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    padding: 15px;
+    border-color: black;
+    width: 25rem;
+    box-shadow: 0px 5px 10px 5px black;
+}
+
+.circle-grupo {
+    text-align: center;
+    border-radius: 65px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.537);
+    width: 5rem;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 50px;
+    width: 6rem;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/*.materias:hover {
+    background-color: #2f254cd7;
+    color: white;
+}*/
+
+.materias {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    /* background-color: #3900d696;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    width: 5rem;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px; */
+}
+
+.clasediv {
+    padding-top: 1rem;
+}
+
+.clases {
+    background-color: #3900d696;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    width: 8rem;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#error-message {
+    color: red;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.footerd {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+#toggle-button1 {
+    background-color: #ffffff;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 20rem;
+}
+

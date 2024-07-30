@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITA</title>
+    <script src="./base-datos.js" defer></script>
+    <link rel="stylesheet" href="./base-datos.css">
+    <link rel="icon" href="./media/ITA LOGO-modified.png">
+</head>
+<body>
+    <div class="titulo-base-datos">
+    <h1>Base de Datos</h1>
+    <h1>Alumnos</h1>
+    </div>
+    <div class="registrod">
+        <h2>Registro de Alumnos</h2>
+    </div>
+    <div class="registro_datos">
+        <h3>Datos del Alumno</h3>
+    <form id="registro-form" action="#">
+    <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+    </div>
+    <div class="form-group">
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+    </div>
+    <div class="form-group">
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required>
+    </div>
+    <div class="form-group">
+        
+        <label for="materia">Materias: Literatura | Diseño | Música </label>
+        <div class="materias" id="checkmatliteratura">
+            <input type="text" id="toggle-button1" placeholder="Ingrese las materias separadas por comas." required>
+        </div>
+        <!-- <div class="materias" id="checkmatmusica">
+            <input type="text" id="toggle-button2">
+        </div>
+        <div class="materias" id="checkmatdiseno">
+            <input type="text" id="toggle-button3">
+        </div> -->
+    </div>
+    <button type="submit" id="submit">Inscribir</button>
+    <div class="registrosboton" id="register">Registros</div>
+    </form>
+    <p id="error-message"></p>
+</div>
+<div class="clasediv">
+    <h2>Acceso por Clase</h2>
+</div>
+<div class="acceso-clases">
+    <button class="clases" id="materiaLi">Literatura 📖
+        <div class="circle-grupo"><p>Grupo 1</p></div>
+    </button>
+    <button class="clases" id="materiaMu">Música 🎵
+        <div class="circle-grupo"><p>Grupo 2</p></div>
+    </button>
+    <button class="clases" id="materiaDi">Diseño 🎨
+        <div class="circle-grupo"><p>Grupo 3</p></div>
+    </button>
+</div>
+<div class="footerd">
+    <h2>Desempeño de Estudiantes</h2>
+    <button id="desempeno">Acceder</button>
+</div>
+</body>
+</html>
